@@ -40,12 +40,12 @@
     });
 </script>
   
-<div class="relative" id="carouselExampleCaptions">
-    <div class="w-full relative">
+<div class="relative mt-[5.5rem] rounded-md" id="carouselExampleCaptions">
+    <div class="w-full relative rounded-md">
       {#each slides as slide, index}
-        <div class={`relative float-left w-full transition-transform duration-600 ease-in-out ${activeSlide === index ? '' : 'hidden'}`}>
-          <div class="flex items-center justify-center h-[400px]"> <!-- Flexbox container to center the image -->
-            <img src={slide.img} class="block w-[100%] h-[100%] object-cover" alt={`Slide ${index + 1}`} />
+        <div class={`relative float-left w-full transition-transform duration-600 ease-in-out rounded-md ${activeSlide === index ? '' : 'hidden'}`}>
+          <div class="flex items-center justify-center h-[400px] rounded-md"> <!-- Flexbox container to center the image -->
+            <img src={slide.img} class="block w-[100%] h-[100%] object-cover rounded-md" alt={`Slide ${index + 1}`} />
           </div>
           <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 class="text-xl">{slide.title}</h5>

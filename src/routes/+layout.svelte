@@ -2,9 +2,12 @@
    
 	import '../app.css';
     import { onMount } from 'svelte';
+  import Header from '../components/header/Header.svelte';
 
 </script>
-
-
-<h1 class="text-red-500">JE SUIS EN MODE TEST GRAVE</h1>
-<slot />
+<Header />
+<div class="mx-auto bg-white   ">
+    <div class="text-neutral-800  relative overflow-hidden flex flex-col justify-around w-full   bg-white  px-4">
+        <slot />
+    </div>
+</div>
