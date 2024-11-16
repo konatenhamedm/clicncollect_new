@@ -1,0 +1,36 @@
+{
+    "access":{
+        "id": "int",
+        "module":{
+            "id": "int",
+            "libelle":"string",
+            "icon":{
+                "id": "int",
+                "code": "string",
+                "description": "string"
+            }
+        },
+        "feature":{
+            "id":"int",
+            "libelle":"string",
+            "url":"string"
+        },
+        "role":{
+            "id":"int",
+            "libelle":"string"
+        },
+        "sous-menu":{
+            "id":"int",
+            "libelle":"string"
+        },
+        "permission":{
+            "id":"int",
+            "libelle":"string",
+            "code":"string"
+        },
+        "icon":{
+            "id":"int",
+            "libelle":"string"
+        }
+    }
+}

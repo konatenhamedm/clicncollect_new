@@ -1,0 +1,255 @@
+[
+    {
+      "libelle": "Pharmacie de la Paix",
+      "nomPharmacien": "Dr. Kouadio",
+      "tel1": "01 23 45 67",
+      "tel2": "01 23 45 68",
+      "tel3": "01 23 45 69",
+      "latitude": 5.345,
+      "longitude": -4.014,
+      "dateDebutGarde": "2024-11-01",
+      "dateFinGarde": "2024-11-02",
+      "ville": {
+        "libelle": "Abidjan"
+      }
+    },
+    {
+      "libelle": "Pharmacie Saint Michel",
+      "nomPharmacien": "Dr. Yao",
+      "tel1": "01 11 22 33",
+      "tel2": "01 11 22 34",
+      "tel3": "01 11 22 35",
+      "latitude": 5.367,
+      "longitude": -4.008,
+      "dateDebutGarde": "2024-11-03",
+      "dateFinGarde": "2024-11-04",
+      "ville": {
+        "libelle": "Bouaké"
+      }
+    },
+    {
+      "libelle": "Pharmacie du Lieu",
+      "nomPharmacien": "Dr. N'Guessan",
+      "tel1": "01 45 67 89",
+      "tel2": "01 45 67 90",
+      "tel3": "01 45 67 91",
+      "latitude": 7.678,
+      "longitude": -5.050,
+      "dateDebutGarde": "2024-11-05",
+      "dateFinGarde": "2024-11-06",
+      "ville": {
+        "libelle": "Korhogo"
+      }
+    },
+    {
+      "libelle": "Pharmacie de l'Amitié",
+      "nomPharmacien": "Dr. Traoré",
+      "tel1": "01 23 45 12",
+      "tel2": "01 23 45 13",
+      "tel3": "01 23 45 14",
+      "latitude": 5.347,
+      "longitude": -3.993,
+      "dateDebutGarde": "2024-11-07",
+      "dateFinGarde": "2024-11-08",
+      "ville": {
+        "libelle": "San Pedro"
+      }
+    },
+    {
+      "libelle": "Pharmacie de la Santé",
+      "nomPharmacien": "Dr. Kone",
+      "tel1": "01 89 67 45",
+      "tel2": "01 89 67 46",
+      "tel3": "01 89 67 47",
+      "latitude": 5.346,
+      "longitude": -4.032,
+      "dateDebutGarde": "2024-11-09",
+      "dateFinGarde": "2024-11-10",
+      "ville": {
+        "libelle": "Yamoussoukro"
+      }
+    },
+    {
+      "libelle": "Pharmacie de l'Espoir",
+      "nomPharmacien": "Dr. Gbagbo",
+      "tel1": "01 56 78 90",
+      "tel2": "01 56 78 91",
+      "tel3": "01 56 78 92",
+      "latitude": 5.333,
+      "longitude": -4.014,
+      "dateDebutGarde": "2024-11-11",
+      "dateFinGarde": "2024-11-12",
+      "ville": {
+        "libelle": "Daloa"
+      }
+    },
+    {
+      "libelle": "Pharmacie Saint Joseph",
+      "nomPharmacien": "Dr. N'Cho",
+      "tel1": "01 90 12 34",
+      "tel2": "01 90 12 35",
+      "tel3": "01 90 12 36",
+      "latitude": 5.257,
+      "longitude": -4.009,
+      "dateDebutGarde": "2024-11-13",
+      "dateFinGarde": "2024-11-14",
+      "ville": {
+        "libelle": "Man"
+      }
+    },
+    {
+      "libelle": "Pharmacie de la Rivière",
+      "nomPharmacien": "Dr. Ouattara",
+      "tel1": "01 34 56 78",
+      "tel2": "01 34 56 79",
+      "tel3": "01 34 56 80",
+      "latitude": 5.382,
+      "longitude": -4.007,
+      "dateDebutGarde": "2024-11-15",
+      "dateFinGarde": "2024-11-16",
+      "ville": {
+        "libelle": "San Pedro"
+      }
+    },
+    {
+      "libelle": "Pharmacie du Bonheur",
+      "nomPharmacien": "Dr. Koffi",
+      "tel1": "01 23 67 89",
+      "tel2": "01 23 67 90",
+      "tel3": "01 23 67 91",
+      "latitude": 5.361,
+      "longitude": -4.001,
+      "dateDebutGarde": "2024-11-17",
+      "dateFinGarde": "2024-11-18",
+      "ville": {
+        "libelle": "Divo"
+      }
+    },
+    {
+      "libelle": "Pharmacie des Collines",
+      "nomPharmacien": "Dr. Diaby",
+      "tel1": "01 98 76 54",
+      "tel2": "01 98 76 55",
+      "tel3": "01 98 76 56",
+      "latitude": 6.058,
+      "longitude": -5.101,
+      "dateDebutGarde": "2024-11-19",
+      "dateFinGarde": "2024-11-20",
+      "ville": {
+        "libelle": "Bouaké"
+      }
+    },
+    {
+      "libelle": "Pharmacie de la Nouvelle Vie",
+      "nomPharmacien": "Dr. Fofana",
+      "tel1": "01 23 45 67",
+      "tel2": "01 23 45 68",
+      "tel3": "01 23 45 69",
+      "latitude": 5.228,
+      "longitude": -3.999,
+      "dateDebutGarde": "2024-11-21",
+      "dateFinGarde": "2024-11-22",
+      "ville": {
+        "libelle": "Yamoussoukro"
+      }
+    },
+    {
+      "libelle": "Pharmacie du Pêcheur",
+      "nomPharmacien": "Dr. Camara",
+      "tel1": "01 30 40 50",
+      "tel2": "01 30 40 51",
+      "tel3": "01 30 40 52",
+      "latitude": 5.623,
+      "longitude": -3.761,
+      "dateDebutGarde": "2024-11-23",
+      "dateFinGarde": "2024-11-24",
+      "ville": {
+        "libelle": "Assinie"
+      }
+    },
+    {
+      "libelle": "Pharmacie de la Liberté",
+      "nomPharmacien": "Dr. Amani",
+      "tel1": "01 90 12 34",
+      "tel2": "01 90 12 35",
+      "tel3": "01 90 12 36",
+      "latitude": 5.293,
+      "longitude": -4.010,
+      "dateDebutGarde": "2024-11-25",
+      "dateFinGarde": "2024-11-26",
+      "ville": {
+        "libelle": "Gagnoa"
+      }
+    },
+    {
+      "libelle": "Pharmacie du Bon Samaritain",
+      "nomPharmacien": "Dr. Ouégnin",
+      "tel1": "01 54 67 89",
+      "tel2": "01 54 67 90",
+      "tel3": "01 54 67 91",
+      "latitude": 6.035,
+      "longitude": -4.060,
+      "dateDebutGarde": "2024-11-27",
+      "dateFinGarde": "2024-11-28",
+      "ville": {
+        "libelle": "Abengourou"
+      }
+    },
+    {
+      "libelle": "Pharmacie de la Sécurité",
+      "nomPharmacien": "Dr. Koné",
+      "tel1": "01 23 67 89",
+      "tel2": "01 23 67 90",
+      "tel3": "01 23 67 91",
+      "latitude": 6.189,
+      "longitude": -5.243,
+      "dateDebutGarde": "2024-11-29",
+      "dateFinGarde": "2024-11-30",
+      "ville": {
+        "libelle": "Korhogo"
+      }
+    },
+    {
+      "libelle": "Pharmacie des Étoiles",
+      "nomPharmacien": "Dr. Kone",
+      "tel1": "01 12 34 56",
+      "tel2": "01 12 34 57",
+      "tel3": "01 12 34 58",
+      "latitude": 5.463,
+      "longitude": -3.961,
+      "dateDebutGarde": "2024-12-01",
+      "dateFinGarde": "2024-12-02",
+      "ville": {
+        "libelle": "San Pedro"
+      }
+    },
+    {
+      "libelle": "Pharmacie de l'Unité",
+      "nomPharmacien": "Dr. Lamine",
+      "tel1": "01 99 88 77",
+      "tel2": "01 99 88 78",
+      "tel3": "01 99 88 79",
+      "latitude": 5.244,
+      "longitude": -4.002,
+      "dateDebutGarde": "2024-12-03",
+      "dateFinGarde": "2024-12-04",
+      "ville": {
+        "libelle": "Daloa"
+      }
+    },
+    {
+      "libelle": "Pharmacie du Bonheur",
+      "nomPharmacien": "Dr. Zida",
+      "tel1": "01 67 89 12",
+      "tel2": "01 67 89 13",
+      "tel3": "01 67 89 14",
+      "latitude": 5.371,
+      "longitude": -4.019,
+      "dateDebutGarde": "2024-12-05",
+      "dateFinGarde": "2024-12-06",
+      "ville": {
+        "libelle": "Yamoussoukro"
+      }
+    }
+  ]
+  

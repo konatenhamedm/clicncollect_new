@@ -1,0 +1,26 @@
+[
+    {
+        "id": "tarif001",
+        "serviceCode": "SRV001",
+        "montantDebut": 0,
+        "montantFin": 100,
+        "tauxRemise": 5,
+        "montantRemise": 5.00
+    },
+    {
+        "id": "tarif002",
+        "serviceCode": "SRV002",
+        "montantDebut": 101,
+        "montantFin": 500,
+        "tauxRemise": 10,
+        "montantRemise": 50.00
+    },
+    {
+        "id": "tarif003",
+        "serviceCode": "SRV003",
+        "montantDebut": 501,
+        "montantFin": 1000,
+        "tauxRemise": 15,
+        "montantRemise": 150.00
+    }
+]

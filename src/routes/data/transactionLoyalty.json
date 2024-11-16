@@ -1,0 +1,32 @@
+[
+    {
+        "id": "trans001",
+        "userId": "user001",
+        "montant": 25.50,
+        "refTransaction": "REF20240101A",
+        "serviceName": "Recharge Mobile",
+        "serviceCode": "RM001",
+        "type": "credit",
+        "date": "2024-01-01T12:30:00Z"
+    },
+    {
+        "id": "trans002",
+        "userId": "user002",
+        "montant": 50.00,
+        "refTransaction": "REF20240105B",
+        "serviceName": "Paiement Facture",
+        "serviceCode": "PF002",
+        "type": "debit",
+        "date": "2024-01-05T10:00:00Z"
+    },
+    {
+        "id": "trans003",
+        "userId": "user003",
+        "montant": 75.25,
+        "refTransaction": "REF20240110C",
+        "serviceName": "Achat en ligne",
+        "serviceCode": "AL003",
+        "type": "credit",
+        "date": "2024-01-10T14:45:00Z"
+    }
+]

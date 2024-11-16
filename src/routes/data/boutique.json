@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "libelle": "Boutique A",
+        "createdAt": "2023-01-15T08:30:00Z",
+        "tel": "+1234567890",
+        "email": "contact@boutiqueA.com",
+        "nbVente": "150",
+        "statut": "Valider",
+        "logo": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    },
+    {
+        "id": 2,
+        "libelle": "Boutique B",
+        "createdAt": "2022-03-22T09:15:00Z",
+        "tel": "+0987654321",
+        "email": "info@boutiqueB.com",
+        "nbVente": "300",
+        "statut": "Rejeter",
+        "logo": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    },
+    {
+        "id": 3,
+        "libelle": "Boutique C",
+        "createdAt": "2023-05-10T11:00:00Z",
+        "tel": "+1122334455",
+        "email": "support@boutiqueC.com",
+        "nbVente": "75",
+        "statut": "En attente",
+        "logo": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    }
+]

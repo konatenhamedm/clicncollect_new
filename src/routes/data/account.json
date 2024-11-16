@@ -1,0 +1,20 @@
+[
+    {
+        "id": "acc001",
+        "userId": "u001",
+        "solde": 150.75,
+        "status": "1"
+    },
+    {
+        "id": "acc002",
+        "userId": "u002",
+        "solde": 50.00,
+        "status": "0"
+    },
+    {
+        "id": "acc003",
+        "userId": "u003",
+        "solde": 200.25,
+        "status": "ok"
+    }
+]

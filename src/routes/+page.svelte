@@ -14,13 +14,13 @@ import Slide from "../components/Slide.svelte";
 <div class="grid grid-cols-1 md:grid-cols-4 border-2 border-orange-500 mt-2 p-1 gap-4 items-center">
   <!-- Texte -->
   <div class="md:col-span-3 px-5">
-    <h1 class="text-xl md:text-2xl text-center md:text-left">
+    <h1 class="text-xl md:text-2xl text-centere md:text-left">
       Augmentez vos ventes dès aujourd’hui !
     </h1>
   </div>
   <!-- Bouton -->
   <div class="md:col-span-1 flex justify-center md:justify-end">
-    <button class="w-full md:w-auto bg-orange-500 text-white py-1 px-4 rounded-lg hover:bg-orange-600 text-center flex items-center">
+    <button class="w-full md:w-auto bg-orange-500 text-white py-1 px-4 rounded-lg hover:bg-orange-600 justify-end">
       <span class="p-2">Créez votre boutique en ligne</span>
       <span class="font-bold text-lg ml-2">+</span>
     </button>
@@ -85,12 +85,12 @@ import Slide from "../components/Slide.svelte";
 <div class="mt-8">
 </div>
 
-<Titre titre="Vendus par ClicnCollect" lien="details" color=""/>
+<!-- <Titre titre="Vendus par ClicnCollect" lien="details" color=""/>
 <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
-  {#each [1,2,3,4,5] as index_}
+  {#each [1,2,3,4,5,6,7,8,9,10] as index_}
     <CardMaque/>
   {/each}
-</div>
+</div> -->
 <div class="mt-8">
 </div>
 

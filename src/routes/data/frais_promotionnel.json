@@ -1,0 +1,155 @@
+{
+    "frais_promotionnels": [
+      {
+        "id": 1,
+        "dateDebut": "2024-01-01",
+        "dateFin": "2024-01-31",
+        "code": "PROMO2024_01",
+        "service_code": "SERVICE01",
+        "montant": 100.00,
+        "taux": 15.00,
+        "frais": {
+          "code": "SERVICE01",
+          "service_code": "CODE_SERVICE_EXEMPLE_1",
+          "description": "Frais de service pour l'année 2024",
+          "montant_base": 500.00
+        }
+      },
+      {
+        "id": 2,
+        "dateDebut": "2024-02-01",
+        "dateFin": "2024-02-28",
+        "code": "PROMO2024_02",
+        "service_code": "SERVICE02",
+        "montant": 200.00,
+        "taux": 10.00,
+        "frais": {
+          "code": "SERVICE02",
+          "service_code": "CODE_SERVICE_EXEMPLE_2",
+          "description": "Frais de service pour février 2024",
+          "montant_base": 800.00
+        }
+      },
+      {
+        "id": 3,
+        "dateDebut": "2024-03-01",
+        "dateFin": "2024-03-31",
+        "code": "PROMO2024_03",
+        "service_code": "SERVICE01",
+        "montant": 150.00,
+        "taux": 20.00,
+        "frais": {
+          "code": "SERVICE01",
+          "service_code": "CODE_SERVICE_EXEMPLE_1",
+          "description": "Frais de service promotionnel pour mars",
+          "montant_base": 600.00
+        }
+      },
+      {
+        "id": 4,
+        "dateDebut": "2024-04-01",
+        "dateFin": "2024-04-30",
+        "code": "PROMO2024_04",
+        "service_code": "SERVICE03",
+        "montant": 250.00,
+        "taux": 25.00,
+        "frais": {
+          "code": "SERVICE03",
+          "service_code": "CODE_SERVICE_EXEMPLE_3",
+          "description": "Frais de service pour avril 2024",
+          "montant_base": 1000.00
+        }
+      },
+      {
+        "id": 5,
+        "dateDebut": "2024-05-01",
+        "dateFin": "2024-05-31",
+        "code": "PROMO2024_05",
+        "service_code": "SERVICE02",
+        "montant": 300.00,
+        "taux": 18.00,
+        "frais": {
+          "code": "SERVICE02",
+          "service_code": "CODE_SERVICE_EXEMPLE_2",
+          "description": "Frais promotionnel pour mai",
+          "montant_base": 900.00
+        }
+      },
+      {
+        "id": 6,
+        "dateDebut": "2024-06-01",
+        "dateFin": "2024-06-30",
+        "code": "PROMO2024_06",
+        "service_code": "SERVICE01",
+        "montant": 180.00,
+        "taux": 12.00,
+        "frais": {
+          "code": "SERVICE01",
+          "service_code": "CODE_SERVICE_EXEMPLE_1",
+          "description": "Frais de service pour juin",
+          "montant_base": 700.00
+        }
+      },
+      {
+        "id": 7,
+        "dateDebut": "2024-07-01",
+        "dateFin": "2024-07-31",
+        "code": "PROMO2024_07",
+        "service_code": "SERVICE03",
+        "montant": 220.00,
+        "taux": 22.00,
+        "frais": {
+          "code": "SERVICE03",
+          "service_code": "CODE_SERVICE_EXEMPLE_3",
+          "description": "Frais promotionnel pour juillet",
+          "montant_base": 850.00
+        }
+      },
+      {
+        "id": 8,
+        "dateDebut": "2024-08-01",
+        "dateFin": "2024-08-31",
+        "code": "PROMO2024_08",
+        "service_code": "SERVICE02",
+        "montant": 275.00,
+        "taux": 14.00,
+        "frais": {
+          "code": "SERVICE02",
+          "service_code": "CODE_SERVICE_EXEMPLE_2",
+          "description": "Frais de service pour août",
+          "montant_base": 950.00
+        }
+      },
+      {
+        "id": 9,
+        "dateDebut": "2024-09-01",
+        "dateFin": "2024-09-30",
+        "code": "PROMO2024_09",
+        "service_code": "SERVICE01",
+        "montant": 350.00,
+        "taux": 30.00,
+        "frais": {
+          "code": "SERVICE01",
+          "service_code": "CODE_SERVICE_EXEMPLE_1",
+          "description": "Frais promotionnel pour septembre",
+          "montant_base": 1100.00
+        }
+      },
+      {
+        "id": 10,
+        "dateDebut": "2024-10-01",
+        "dateFin": "2024-10-31",
+        "code": "PROMO2024_10",
+        "service_code": "SERVICE03",
+        "montant": 400.00,
+        "taux": 5.00,
+        "frais": {
+          "code": "SERVICE03",
+          "service_code": "CODE_SERVICE_EXEMPLE_3",
+          "description": "Frais promotionnel pour octobre",
+          "montant_base": 1200.00
+        }
+      }
+    ]
+  }
+  

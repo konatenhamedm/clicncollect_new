@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "montant": 100,
+    "description": "Frais de gestion",
+    "service": {
+      "code": "S001",
+      "libelle": "Service de gestion des utilisateurs"
+    },
+    "debut": 0.0,
+    "fin": 0.0,
+    "taux": 0.0,
+    "type": "Type de frais"
+  },
+  {
+    "id": 2,
+    "montant": 150,
+    "description": "Frais de support",
+    "service": {
+      "code": "S002",
+      "libelle": "Service de support client"
+    },
+    "debut": 0.0,
+    "fin": 0.0,
+    "taux": 0.0,
+    "type": "Type de frais"
+  },
+  {
+    "id": 3,
+    "montant": 200,
+    "description": "Frais de campagne",
+    "service": {
+      "code": "S003",
+      "libelle": "Service de gestion des campagnes"
+    },
+    "debut": 0.0,
+    "fin": 0.0,
+    "taux": 0.0,
+    "type": "Type de frais"
+  },
+  {
+    "id": 4,
+    "montant": 50,
+    "description": "Frais de paiement",
+    "service": {
+      "code": "S004",
+      "libelle": "Service de paiement en ligne"
+    },
+    "debut": 0.0,
+    "fin": 0.0,
+    "taux": 0.0,
+    "type": "Type de frais"
+  },
+  {
+    "id": 5,
+    "montant": 80,
+    "description": "Frais d'envoi de notifications",
+    "service": {
+      "code": "S005",
+      "libelle": "Service d'envoi de notifications"
+    },
+    "debut": 0.0,
+    "fin": 0.0,
+    "taux": 0.0,
+    "type": "Type de frais"
+  },
+  {
+    "id": 6,
+    "montant": 120,
+    "description": "Frais de suivi des inventaires",
+    "service": {
+      "code": "S006",
+      "libelle": "Service de suivi des inventaires"
+    },
+    "debut": 0.0,
+    "fin": 0.0,
+    "taux": 0.0,
+    "type": "Type de frais"
+  }
+]

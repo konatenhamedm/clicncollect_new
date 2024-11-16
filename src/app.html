@@ -2,11 +2,83 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<!-- <link rel="icon" href="%sveltekit.assets%/favicon.png" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
+			<!-- FAVICONS ICON -->
+	<link rel="shortcut icon" type="image/png" href="%sveltekit.assets%/favicon.ico">
+
+	<!-- ICONS -->
+	<link rel="stylesheet" href="%sveltekit.assets%/assets/icons/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="%sveltekit.assets%/assets/icons/line-awesome/css/line-awesome.min.css">
+	<link rel="stylesheet" href="%sveltekit.assets%/assets/icons/simple-line-icons/css/simple-line-icons.css">
+
+	<!-- TAGIFY -->
+	<link href="%sveltekit.assets%/assets/vendor/tagify/dist/tagify.css" rel="stylesheet">
+
+	<!-- NICE SELECT -->
+	<link href="%sveltekit.assets%/assets/vendor/niceselect/css/nice-select.css" rel="stylesheet">
+
+	<!-- STYLESHEETS -->
+	<link href="%sveltekit.assets%/assets/vendor/powerful-calendar/all.min.css" rel="stylesheet">
+	<link href="%sveltekit.assets%/assets/vendor/jvmap/jquery-jvectormap.min.css" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+	<link href="%sveltekit.assets%/assets/vendor/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
+	
+	<script>
+		if (global === undefined) {
+			var global = window;
+		}
+	</script>
+
+   <link href="%sveltekit.assets%/assets/css/style.css" rel="stylesheet">
+   
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+   
 	</head>
-	<body data-sveltekit-preload-data="hover">
+
+
+	<body data-sveltekit-preload-data="hover" >
+   <!-- Main wrapper start -->
+   <!--  <div id="main-wrapper"> -->
+		<!-- Content body start -->
+		
 		<div style="display: contents">%sveltekit.body%</div>
+		
+         <!-- Content body end -->
+
+	<!-- </div> -->
+  
+
+	<script  src="%sveltekit.assets%/assets/vendor/global/global.min.js"></script>
+	<!-- <script  src="%sveltekit.assets%/assets/vendor/chart.js/chart.bundle.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/apexchart/apexchart.min.js"></script> -->
+	
+
+	<!-- Dashboard 1 -->
+	<script  src="%sveltekit.assets%/assets/js/dashboard/dashboard-1.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/draggable/draggable.js"></script>
+	
+	<script  src="%sveltekit.assets%/assets/vendor/datatables/js/jquery.dataTables.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/datatables/js/dataTables.buttons.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/datatables/js/buttons.html5.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/datatables/js/jszip.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/js/plugins-init/datatables.init.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/tagify/dist/tagify.min.js"></script><!-- tagify -->
+	<script  src="%sveltekit.assets%/assets/vendor/niceselect/js/jquery.nice-select.min.js"></script> <!-- nice-select -->
+	<script  src="%sveltekit.assets%/assets/vendor/powerful-calendar/calendar.min.js"></script> <!-- Date picker -->
+
+	<!-- Vectormap -->
+	<script  src="%sveltekit.assets%/assets/vendor/jqvmap/js/jquery.vmap.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/jqvmap/js/jquery.vmap.world.js"></script>
+	<script  src="%sveltekit.assets%/assets/vendor/jqvmap/js/jquery.vmap.usa.js"></script>
+
+	<script  src="%sveltekit.assets%/assets/js/deznav-init.js"></script>
+	<script  src="%sveltekit.assets%/assets/js/custom.min.js"></script>
+	<script  src="%sveltekit.assets%/assets/js/styleSwitcher.js"></script>
+	<script  src="%sveltekit.assets%/assets/js/demo.min.js"></script>
+
 	</body>
 </html>

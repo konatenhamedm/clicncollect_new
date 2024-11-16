@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "isMenuDirect": true,
+      "module": 101,
+      "feature": 201,
+      "permission": 301,
+      "sous_menu": 401
+      
+    },
+    {
+      "id": 2,
+      "isMenuDirect": false,
+      "module": 102,
+      "feature": 202,
+      "permission": 302,
+      "sous_menu": 402
+      
+    },
+    {
+      "id": 3,
+      "isMenuDirect": true,
+      "module": 103,
+      "feature": 203,
+      "permission": 303,
+      "sous_menu": 403
+      
+    },
+    {
+      "id": 4,
+      "isMenuDirect": false,
+      "module": 104,
+      "feature": 204,
+      "permission": 304,
+      "sous_menu": 404
+      
+    }
+  ]
+  

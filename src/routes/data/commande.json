@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "dateCommande": "2023-10-01T14:30:00Z",
+        "quantite": 3,
+        "prixUnitaire": "15.00",
+        "lieuLivraison": "123 Rue Exemple, Paris",
+        "userId": "u001",
+        "statut": "en cours",
+        "username": "utilisateurA",
+        "boutiqueId": "b001",
+        "articleId": "a001",
+        "code": "CMD001"
+    },
+    {
+        "id": 2,
+        "dateCommande": "2023-10-02T09:15:00Z",
+        "quantite": 1,
+        "prixUnitaire": "25.50",
+        "lieuLivraison": "456 Avenue Exemple, Lyon",
+        "userId": "u002",
+        "statut": "livrée",
+        "username": "utilisateurB",
+        "boutiqueId": "b002",
+        "articleId": "a002",
+        "code": "CMD002"
+    },
+    {
+        "id": 3,
+        "dateCommande": "2023-10-03T11:45:00Z",
+        "quantite": 5,
+        "prixUnitaire": "10.00",
+        "lieuLivraison": "789 Boulevard Exemple, Marseille",
+        "userId": "u003",
+        "statut": "annulée",
+        "username": "utilisateurC",
+        "boutiqueId": "b001",
+        "articleId": "a003",
+        "code": "CMD003"
+    }
+]

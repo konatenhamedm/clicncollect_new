@@ -1,0 +1,158 @@
+[
+  {
+    "code": "S001",
+    "libelle": "Service de gestion des utilisateurs",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S002",
+    "libelle": "Service de support client",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S003",
+    "libelle": "Service de gestion des campagnes",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S004",
+    "libelle": "Service de paiement en ligne",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S005",
+    "libelle": "Service d'envoi de notifications",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S006",
+    "libelle": "Service de suivi des inventaires",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S007",
+    "libelle": "Service d'analyse de performance",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S008",
+    "libelle": "Service de gestion des rôles",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S009",
+    "libelle": "Service de gestion des produits",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S010",
+    "libelle": "Service de suivi des transactions",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S011",
+    "libelle": "Service de rapports financiers",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S012",
+    "libelle": "Service de configuration système",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S013",
+    "libelle": "Service de gestion des donations",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S014",
+    "libelle": "Service de messagerie instantanée",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S015",
+    "libelle": "Service d'historique des utilisateurs",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S016",
+    "libelle": "Service de gestion des stocks",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S017",
+    "libelle": "Service de gestion des factures",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S018",
+    "libelle": "Service d'intégration API",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S019",
+    "libelle": "Service de gestion des abonnements",
+    "icon": {
+      "id": 2,
+      "libelle": "Icon Libelle 2"
+    }
+  },
+  {
+    "code": "S020",
+    "libelle": "Service de sécurité et authentification"
+  }
+]

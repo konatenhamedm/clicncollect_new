@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "Central Park",
+      "description": "A large public park in New York City, famous for its greenery and attractions.",
+      "address": "New York, NY 10024, United States",
+      "latitude": "40.785091",
+      "longitude": "-73.968285",
+      "createdAt": "2023-01-15T10:00:00Z",
+      "updatedAt": "2023-06-22T14:30:00Z",
+      "status": "active",
+      "tel1": "+1 212-310-6600",
+      "tel2": "+1 212-310-6601",
+      "userId": "user123"
+    },
+    {
+      "id": 2,
+      "name": "Eiffel Tower",
+      "description": "An iconic iron lattice tower located on the Champ de Mars in Paris, France.",
+      "address": "Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
+      "latitude": "48.858370",
+      "longitude": "2.294481",
+      "createdAt": "2023-02-01T08:45:00Z",
+      "updatedAt": "2023-06-18T16:45:00Z",
+      "status": "active",
+      "tel1": "+33 892 70 12 39",
+      "tel2": "+33 892 70 12 40",
+      "userId": "user456"
+    },
+    {
+      "id": 3,
+      "name": "Great Wall of China",
+      "description": "A series of fortifications made of stone, brick, and other materials, built to protect China from invasions.",
+      "address": "Huairou District, China",
+      "latitude": "40.431908",
+      "longitude": "116.570374",
+      "createdAt": "2023-03-10T09:00:00Z",
+      "updatedAt": "2023-07-05T11:15:00Z",
+      "status": "inactive",
+      "tel1": "+86 10 6162 6505",
+      "tel2": "+86 10 6162 6506",
+      "userId": "user789"
+    }
+  ]
+  

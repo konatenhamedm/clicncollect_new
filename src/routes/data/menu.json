@@ -1,0 +1,278 @@
+[
+  {
+    "libelle": "PARAMETRAGES",
+    "id": 3,
+    "sous_menu": [
+      {
+        "libelle": "Gestion menus",
+        "icon": "fa fa-bars",
+        "menus": [
+          {
+            "id": 2,
+            "libelle": "Liste des rôles",
+            "code": "/admin/role",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 3,
+            "libelle": "Liste features",
+            "code": "/admin/feature",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 4,
+            "libelle": "Liste  permissions",
+            "code": "/admin/permission",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 5,
+            "libelle": "Liste des icones",
+            "code": "/admin/icons",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 6,
+            "libelle": "Liste des modules",
+            "code": "/admin/modules",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 7,
+            "libelle": "Liste des sous-menu",
+            "code": "/admin/sous-menu",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 8,
+            "libelle": "Liste des pays",
+            "code": "/admin/pays",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 10,
+            "libelle": "Types de services",
+            "code": "/admin/type-service",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 11,
+            "libelle": "Services populaires",
+            "code": "/admin/service-populaire",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 12,
+            "libelle": "Services",
+            "code": "/admin/services",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 9,
+            "libelle": "Liste des access",
+            "code": "/admin/access",
+            "icon": "fa fa-user"
+          }
+        ]
+      },
+      {
+        "libelle": "Gestion  utilisateurs",
+        "icon": "fa fa-bars",
+        "menus": [
+          {
+            "id": 1,
+            "libelle": "Liste end Users",
+            "code": "/admin/end-user",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 2,
+            "libelle": "Validation end Users",
+            "code": "/admin/end-user-invalid",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 3,
+            "libelle": "Liste  admins users",
+            "code": "/admin/admin-user",
+            "icon": "fa fa-user"
+          }
+        ]
+      },
+      {
+        "libelle": "Gestion  des frais",
+        "icon": "fa fa-bars",
+        "menus": [
+          {
+            "id": 1,
+            "libelle": "Grille tarifaire",
+            "code": "/admin/frais",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 2,
+            "libelle": "Frais promotionnels",
+            "code": "/admin/frais-promotionnels",
+            "icon": "fa fa-user"
+          }
+        ]
+      },
+      {
+        "libelle": "Gestion  refunds",
+        "icon": "fa fa-bars",
+        "menus": [
+          {
+            "id": 1,
+            "libelle": "Liste transactions",
+            "code": "/admin/transactions",
+            "icon": "fa fa-user"
+          }
+        ]
+      }
+    ],
+    "menu_directe": [
+      {
+        "id": 1,
+        "libelle": "Type provider operateur",
+        "code": "/admin/provider-operateur",
+        "icon": "fa fa-user"
+      }
+    ]
+  },
+  {
+    "libelle": "GESTION COMPTABILITE",
+    "id": 4,
+    "menu_directe": [],
+    "sous_menu": [
+      {
+        "libelle": "Service comptabilité",
+        "icon": "fa fa-bars",
+        "menus": [
+          {
+            "id": 1,
+            "libelle": "Liste opérations",
+            "code": "/admin/operation",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 2,
+            "libelle": "Rapports",
+            "code": "/admin/rapport",
+            "icon": "fa fa-file"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "libelle": "SERVICE PHARMACIE",
+    "id": 5,
+    "menu_directe": [
+      {
+        "id": 1,
+        "libelle": "Liste des villes",
+        "code": "/admin/pharmacy/villes",
+        "icon": "fa fa-user"
+      },
+      {
+        "id": 2,
+        "libelle": "Liste pharmacies",
+        "code": "/admin/pharmacy/pharmacie",
+        "icon": "fa fa-file"
+      }
+    ],
+    "sous_menu": [
+     
+    ]
+  },
+  {
+    "libelle": "GESTION MALL",
+    "id": 10,
+    "menu_directe": [
+      {
+        "id": 1,
+        "libelle": "Liste catégorie",
+        "code": "/admin/mall/categorie",
+        "icon": "fa fa-user"
+      }
+    ],
+    "sous_menu": [
+     
+      {
+        "libelle": "Gestion mall",
+        "icon": "fa fa-bars",
+        "menus": [
+          {
+            "id": 1,
+            "libelle": "Liste boutiques",
+            "code": "/admin/mall/boutique",
+            "icon": "fa fa-user"
+          },
+          {
+            "id": 2,
+            "libelle": "Liste commandes",
+            "code": "/admin/mall/commande",
+            "icon": "fa fa-user"
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "libelle": "GESTION LOYALTY",
+    "id": 11,
+    "menu_directe": [
+      {
+        "id": 1,
+        "libelle": "Grille tarifaire",
+        "code": "/admin/loyalty/tarifaire",
+        "icon": "fa fa-user"
+      },
+      {
+        "id": 2,
+        "libelle": "Liste comptes",
+        "code": "/admin/loyalty/compte",
+        "icon": "fa fa-user"
+      },
+      {
+        "id": 3,
+        "libelle": "Liste transactions",
+        "code": "/admin/loyalty/transaction",
+        "icon": "fa fa-user"
+      }
+    ],
+    "sous_menu": [
+     
+    ]
+  },
+  {
+    "libelle": "GESTION PLACE",
+    "id": 12,
+    "menu_directe": [
+      {
+        "id": 1,
+        "libelle": "Liste catégories",
+        "code": "/admin/place/categorie",
+        "icon": "fa fa-user"
+      },
+      {
+        "id": 2,
+        "libelle": "Liste places",
+        "code": "/admin/place/place",
+        "icon": "fa fa-user"
+      },
+      {
+        "id": 3,
+        "libelle": "Liste commentaires",
+        "code": "/admin/place/review",
+        "icon": "fa fa-user"
+      }
+    ],
+    "sous_menu": [
+     
+    ]
+  }
+
+
+]

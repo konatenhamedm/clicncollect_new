@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "libelle": "Alimentation",
+        "iconUrl": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    },
+    {
+        "id": 2,
+        "libelle": "Vêtements",
+        "iconUrl": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    },
+    {
+        "id": 3,
+        "libelle": "Électronique",
+        "iconUrl": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    },
+    {
+        "id": 4,
+        "libelle": "Maison",
+        "iconUrl": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    },
+    {
+        "id": 5,
+        "libelle": "Jardin",
+        "iconUrl": "https://24ai.tech/fr/wp-content/uploads/sites/19/2023/10/01_product_1_sdelat-kvadratnym-5-scaled.jpg"
+    }
+]

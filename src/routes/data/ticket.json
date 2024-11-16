@@ -1,0 +1,267 @@
+[
+    {
+      "id": 1,
+      "code": "TIC-001",
+      "descr": "Problème de connexion réseau",
+      "objet": "Connexion réseau instable",
+      "user": {
+        "id": 101,
+        "phone": "+2250707070707",
+        "nom": "John Doe"
+      },
+      "categorie": {
+        "id": 1,
+        "libelle": "Bug",
+        "code_couleur": "danger"
+      },
+      "status": {
+        "id": 1,
+        "libelle": "New Ticket",
+        "code_couleur": "secondary"
+      },
+      "priorite": {
+        "id": 3,
+        "libelle": "Medium",
+        "code_couleur": "warning"
+      },
+      "service": {
+        "id": 1,
+        "libelle": "Canal+"
+      },
+      "ticket_createur": "Jane Smith",
+      "date_creation": "2024-10-01T10:30:00",
+      "date_resolution": null
+    },
+    {
+      "id": 2,
+      "code": "TIC-002",
+      "descr": "Erreur de facturation",
+      "objet": "Montant incorrect sur la facture",
+      "user": {
+        "id": 102,
+        "phone": "+2250708080808",
+        "nom": "Alice Dupont"
+      },
+      "categorie": {
+        "id": 2,
+        "libelle": "Support",
+        "code_couleur": "primary"
+      },
+      "status": {
+        "id": 2,
+        "libelle": "In Progress",
+        "code_couleur": "warning"
+      },
+      "priorite": {
+        "id": 1,
+        "libelle": "Urgent",
+        "code_couleur": "danger"
+      },
+      "service": {
+        "id": 2,
+        "libelle": "Startime"
+      },
+      "ticket_createur": "Bob Martin",
+      "date_creation": "2024-09-25T09:15:00",
+      "date_resolution": null
+    },
+    {
+      "id": 3,
+      "code": "TIC-003",
+      "descr": "Problème de mot de passe",
+      "objet": "Impossible de réinitialiser le mot de passe",
+      "user": {
+        "id": 103,
+        "phone": "+2250717171717",
+        "nom": "Marc Koffi"
+      },
+      "categorie": {
+        "id": 4,
+        "libelle": "Questions",
+        "code_couleur": "secondary"
+      },
+      "status": {
+        "id": 4,
+        "libelle": "Closed",
+        "code_couleur": "success"
+      },
+      "priorite": {
+        "id": 4,
+        "libelle": "Low",
+        "code_couleur": "secondary"
+      },
+      "service": {
+        "id": 3,
+        "libelle": "Airtime"
+      },
+      "ticket_createur": "Carla Jean",
+      "date_creation": "2024-09-20T11:00:00",
+      "date_resolution": "2024-09-22T15:45:00"
+    },
+    {
+      "id": 4,
+      "code": "TIC-004",
+      "descr": "Installation d'un nouveau logiciel",
+      "objet": "Demande d'installation d'un logiciel de gestion",
+      "user": {
+        "id": 104,
+        "phone": "+2250727272727",
+        "nom": "Pierre Yao"
+      },
+      "categorie": {
+        "id": 3,
+        "libelle": "New Installtion",
+        "code_couleur": "info"
+      },
+      "status": {
+        "id": 1,
+        "libelle": "New Ticket",
+        "code_couleur": "secondary"
+      },
+      "priorite": {
+        "id": 3,
+        "libelle": "Medium",
+        "code_couleur": "warning"
+      },
+      "service": {
+        "id": 1,
+        "libelle": "Canal+"
+      },
+      "ticket_createur": "Julie Mbala",
+      "date_creation": "2024-10-02T08:45:00",
+      "date_resolution": null
+    },
+    {
+      "id": 5,
+      "code": "TIC-005",
+      "descr": "Imprimante ne fonctionne plus",
+      "objet": "Demande de réparation de l'imprimante",
+      "user": {
+        "id": 105,
+        "phone": "+2250737373737",
+        "nom": "Fatou Diarra"
+      },
+      "categorie": {
+        "id": 9,
+        "libelle": "Installtion",
+        "code_couleur": "danger"
+      },
+      "status": {
+        "id": 2,
+        "libelle": "In Progress",
+        "code_couleur": "warning"
+      },
+      "priorite": {
+        "id": 2,
+        "libelle": "High",
+        "code_couleur": "danger"
+      },
+      "service": {
+        "id": 2,
+        "libelle": "Startime"
+      },
+      "ticket_createur": "Paul Tano",
+      "date_creation": "2024-09-30T14:10:00",
+      "date_resolution": null
+    },
+    {
+      "id": 6,
+      "code": "TIC-006",
+      "descr": "Demande de support technique",
+      "objet": "Problème avec le logiciel de gestion",
+      "user": {
+        "id": 106,
+        "phone": "+2250747474747",
+        "nom": "Amina Kone"
+      },
+      "categorie": {
+        "id": 2,
+        "libelle": "Support",
+        "code_couleur": "primary"
+      },
+      "status": {
+        "id": 3,
+        "libelle": "On Hold",
+        "code_couleur": "secondary"
+      },
+      "priorite": {
+        "id": 3,
+        "libelle": "Medium",
+        "code_couleur": "warning"
+      },
+      "service": {
+        "id": 1,
+        "libelle": "Canal+"
+      },
+      "ticket_createur": "Omar Sidibe",
+      "date_creation": "2024-09-28T12:20:00",
+      "date_resolution": null
+    },
+    {
+      "id": 7,
+      "code": "TIC-007",
+      "descr": "Récupération de données perdues",
+      "objet": "Problème de récupération de fichiers",
+      "user": {
+        "id": 107,
+        "phone": "+2250757575757",
+        "nom": "Cécile Goro"
+      },
+      "categorie": {
+        "id": 1,
+        "libelle": "Bug",
+        "code_couleur": "danger"
+      },
+      "status": {
+        "id": 2,
+        "libelle": "In Progress",
+        "code_couleur": "warning"
+      },
+      "priorite": {
+        "id": 1,
+        "libelle": "Urgent",
+        "code_couleur": "danger"
+      },
+      "service": {
+        "id": 2,
+        "libelle": "Startime"
+      },
+      "ticket_createur": "Moussa Traoré",
+      "date_creation": "2024-10-01T16:00:00",
+      "date_resolution": null
+    },
+    {
+      "id": 8,
+      "code": "TIC-008",
+      "descr": "Configuration du routeur",
+      "objet": "Demande d'aide pour la configuration",
+      "user": {
+        "id": 108,
+        "phone": "+2250767676767",
+        "nom": "Sophie Diallo"
+      },
+      "categorie": {
+        "id": 3,
+        "libelle": "New Installtion",
+        "code_couleur": "info"
+      },
+      "status": {
+        "id": 4,
+        "libelle": "Resolved",
+        "code_couleur": "success"
+      },
+      "priorite": {
+        "id": 4,
+        "libelle": "Low",
+        "code_couleur": "secondary"
+      },
+      "service": {
+        "id": 3,
+        "libelle": "Airtime"
+      },
+      "ticket_createur": "Khadija Farah",
+      "date_creation": "2024-09-29T10:15:00",
+      "date_resolution": "2024-10-03T09:30:00"
+    }
+  ]
+  

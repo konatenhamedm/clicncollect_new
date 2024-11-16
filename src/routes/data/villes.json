@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "libelle": "Abidjan"
+    },
+    {
+        "id": 2,
+        "libelle": "Bouaké"
+    },
+    {
+        "id": 3,
+        "libelle": "San Pedro"
+    },
+    {
+        "id": 4,
+        "libelle": "Yamoussoukro"
+    },
+    {
+        "id": 5,
+        "libelle": "Daloa"
+    },
+    {
+        "id": 6,
+        "libelle": "Korhogo"
+    },
+    {
+        "id": 7,
+        "libelle": "Man"
+    },
+    {
+        "id": 8,
+        "libelle": "Séguéla"
+    },
+    {
+        "id": 9,
+        "libelle": "Divo"
+    },
+    {
+        "id": 10,
+        "libelle": "Gagnoa"
+    },
+    {
+        "id": 11,
+        "libelle": "Yopougon"
+    },
+    {
+        "id": 12,
+        "libelle": "Tanda"
+    },
+    {
+        "id": 13,
+        "libelle": "Sassandra"
+    },
+    {
+        "id": 14,
+        "libelle": "Agboville"
+    },
+    {
+        "id": 15,
+        "libelle": "Bondoukou"
+    },
+    {
+        "id": 16,
+        "libelle": "Toumodi"
+    },
+    {
+        "id": 17,
+        "libelle": "Sakassou"
+    },
+    {
+        "id": 18,
+        "libelle": "Oumé"
+    },
+    {
+        "id": 19,
+        "libelle": "Ferkessédougou"
+    },
+    {
+        "id": 20,
+        "libelle": "Bouaflé"
+    }
+]

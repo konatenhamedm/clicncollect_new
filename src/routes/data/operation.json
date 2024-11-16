@@ -1,0 +1,152 @@
+[
+  {
+        "service": "CIE_SODECI",
+        "transaction_id": "TX987654321",
+        "user": {
+          "user_id": "123456789",
+          "name": "John Doe",
+          "phone_number": "+2250123456789",
+          "email": "johndoe@example.com"
+        },
+        "payment_method": "orange_money",
+        "transaction_details": {
+          "amount": 15000,
+          "amount_currency": "XOF",
+          "transaction_date": "2024-09-01",
+          "status": "success",
+          "reference": "CIEOM-987654321"
+        },
+        "support_details": {
+          "ticket_id": "",
+          "issue_description": "",
+          "date_reported": "",
+          "status": "",
+          "assigned_agent": ""
+        }
+      },
+      {
+        "service": "Canal+",
+        "transaction_id": "TX987654322",
+        "user": {
+          "user_id": "123456790",
+          "name": "Alice Smith",
+          "phone_number": "+2250123456790",
+          "email": "alicesmith@example.com"
+        },
+        "payment_method": "mtn_money",
+        "transaction_details": {
+          "amount": 10000,
+          "amount_currency": "XOF",
+          "transaction_date": "2024-09-01",
+          "status": "pending",
+          "reference": "CANMTN-987654322"
+        },
+        "support_details": {
+          "ticket_id": "SUP-12345",
+          "issue_description": "Payment stuck in pending status",
+          "date_reported": "2024-10-02T11:30:00Z",
+          "status": "open",
+          "assigned_agent": "Support Agent 1"
+        }
+      },
+      {
+        "service": "Billet d’avion",
+        "transaction_id": "TX987654323",
+        "user": {
+          "user_id": "123456791",
+          "name": "Robert Brown",
+          "phone_number": "+2250123456791",
+          "email": "robertbrown@example.com"
+        },
+        "payment_method": "bank_card",
+        "transaction_details": {
+          "amount": 250000,
+          "amount_currency": "XOF",
+          "transaction_date": "2024-09-01",
+          "status": "failed",
+          "reference": "AVIONCARD-987654323"
+        },
+        "support_details": {
+          "ticket_id": "SUP-12346",
+          "issue_description": "Payment failed but money was debited",
+          "date_reported": "2024-10-02T12:30:00Z",
+          "status": "open",
+          "assigned_agent": "Support Agent 2"
+        }
+      },
+      {
+        "service": "Startime",
+        "transaction_id": "TX987654324",
+        "user": {
+          "user_id": "123456792",
+          "name": "Emma White",
+          "phone_number": "+2250123456792",
+          "email": "emmawhite@example.com"
+        },
+        "payment_method": "wave",
+        "transaction_details": {
+          "amount": 5000,
+          "amount_currency": "XOF",
+          "transaction_date": "2024-09-01",
+          "status": "success",
+          "reference": "STWAVE-987654324"
+        },
+        "support_details": {
+          "ticket_id": "",
+          "issue_description": "",
+          "date_reported": "",
+          "status": "",
+          "assigned_agent": ""
+        }
+      },
+      {
+        "service": "Airtime",
+        "transaction_id": "TX987654325",
+        "user": {
+          "user_id": "123456793",
+          "name": "Michael Johnson",
+          "phone_number": "+2250123456793",
+          "email": "michaeljohnson@example.com"
+        },
+        "payment_method": "moov_money",
+        "transaction_details": {
+          "amount": 2000,
+          "amount_currency": "XOF",
+          "transaction_date": "2024-09-01",
+          "status": "pending",
+          "reference": "AIRMOOV-987654325"
+        },
+        "support_details": {
+          "ticket_id": "SUP-12347",
+          "issue_description": "Airtime not credited but payment went through",
+          "date_reported": "2024-10-02T14:00:00Z",
+          "status": "open",
+          "assigned_agent": "Support Agent 3"
+        }
+      },
+      {
+        "service": "Loyer",
+        "transaction_id": "TX987654326",
+        "user": {
+          "user_id": "123456794",
+          "name": "Sophia Green",
+          "phone_number": "+2250123456794",
+          "email": "sophiagreen@example.com"
+        },
+        "payment_method": "orange_money",
+        "transaction_details": {
+          "amount": 75000,
+          "amount_currency": "XOF",
+          "transaction_date": "2024-09-01",
+          "status": "success",
+          "reference": "LOYOM-987654326"
+        },
+        "support_details": {
+          "ticket_id": "",
+          "issue_description": "",
+          "date_reported": "",
+          "status": "",
+          "assigned_agent": ""
+        }
+      }
+]
