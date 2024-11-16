@@ -1,5 +1,7 @@
 <script>
     import { writable } from 'svelte/store';
+    import { onMount, onDestroy } from 'svelte';
+    import { browser } from '$app/environment'; // Importer la variable 'browser'
   
     // Simuler l'état de connexion de l'utilisateur
     const isLoggedIn = writable(true);
@@ -17,13 +19,16 @@
     }
   
     // Ajouter un gestionnaire d'événements lors du montage du composant
-    import { onMount, onDestroy } from 'svelte';
     onMount(() => {
-      document.addEventListener('click', handleClickOutside);
+      if (browser) {
+        document.addEventListener('click', handleClickOutside);
+      }
     });
   
     onDestroy(() => {
-      document.removeEventListener('click', handleClickOutside);
+      if (browser) {
+        document.removeEventListener('click', handleClickOutside);
+      }
     });
   </script>
   
@@ -61,7 +66,7 @@
       {#if $isLoggedIn}
         <div class="relative profile-dropdown">
           <div class="flex flex-col items-center text-center text-black cursor-pointer" on:click={() => showDropdown.set(!($showDropdown))}>
-            <img src="/logo2.jpg" alt="Profil" class="w-6 h-6"/>
+            <img src="{$userProfileImage}" alt="Profil" class="w-6 h-6"/>
             <p class="text-xs">{$userName}</p>
   
             <!-- Dropdown Menu -->
