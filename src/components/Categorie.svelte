@@ -1,4 +1,6 @@
 <script lang="ts">
+  import Titre from "./Titre.svelte";
+
     let slider: HTMLElement | null;
   
     const scrollLeft = () => {
@@ -79,7 +81,9 @@
   </style>
   
   <div class="border-t-1 border-orange-500  mt-2 pt-2">
-    <div class="flex items-center mb-4">
+<Titre titre="Catégories" lien="details" color=""/>
+
+    <!-- <div class="flex items-center mb-4">
       <svg
         class="w-6 h-6 text-orange-500 mr-2"
         xmlns="http://www.w3.org/2000/svg"
@@ -90,7 +94,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
       </svg>
       <h2 class="text-2xl font-bold text-gray-700">Catégories</h2>
-    </div>
+    </div> -->
   
     <div class="relative">
       <button class="btn-nav btn-left" on:click={scrollLeft}>

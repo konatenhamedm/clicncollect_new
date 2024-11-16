@@ -3,6 +3,7 @@
 	import '../app.css';
     import { onMount } from 'svelte';
   import Header from '../components/header/Header.svelte';
+  import Footer from '$components/footer/Footer.svelte';
 
 </script>
 <Header />
@@ -11,3 +12,4 @@
         <slot />
     </div>
 </div>
+<Footer />

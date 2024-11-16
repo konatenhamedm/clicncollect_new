@@ -1,5 +1,7 @@
 <script>
-  import Categorie from "$components/Categorie.svelte";
+  import Card from "$components/Card.svelte";
+import Categorie from "$components/Categorie.svelte";
+  import Titre from "$components/Titre.svelte";
 import Slide from "../components/Slide.svelte";
 
 
@@ -59,6 +61,16 @@ import Slide from "../components/Slide.svelte";
 </div>
 
 <Categorie/>
+
+<div class="mt-8">
+</div>
+
+<Titre titre="Pour vous" lien="details" color=""/>
+<div class="grid grid-cols-1 md:grid-cols-6 gap-4">
+  {#each [1,2,3,4,5,6,7,8,9,10] as index_}
+    <Card/>
+  {/each}
+</div>
 
 
 
