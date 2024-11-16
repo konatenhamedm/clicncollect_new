@@ -66,7 +66,7 @@
       {#if $isLoggedIn}
         <div class="relative profile-dropdown">
           <div class="flex flex-col items-center text-center text-black cursor-pointer" on:click={() => showDropdown.set(!($showDropdown))}>
-            <img src="{$userProfileImage}" alt="Profil" class="w-6 h-6"/>
+            <img src="/logo2.jpg" alt="Profil" class="w-6 h-6"/>
             <p class="text-xs">{$userName}</p>
   
             <!-- Dropdown Menu -->
