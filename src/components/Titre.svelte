@@ -23,7 +23,7 @@
     </div>
   
     {#if lien != "detail"}
-    <a href={lien} class={color ? `text-[${color}] md:col-span-1 flex justify-center md:justify-end` : "text-[#0076d7] md:col-span-1 flex justify-center md:justify-end"}>
+    <a href={lien} class={color ? `text-[${color}] md:col-span-1 flex  md:justify-end` : "text-[#0076d7] md:col-span-1 flex  md:justify-end"}>
       Voir plus >
     </a>
   {/if}
