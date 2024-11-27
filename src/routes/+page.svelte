@@ -14,7 +14,7 @@ import Slide from "../components/Slide.svelte";
 <div class="grid grid-cols-1 md:grid-cols-4 border-2 border-orange-500 mt-2 p-1 gap-4 items-center">
   <!-- Texte -->
   <div class="md:col-span-3 px-5">
-    <h1 class="text-xl md:text-2xl text-centere md:text-left">
+    <h1 class="text-md md:text-2xl text-center md:text-left">
       Augmentez vos ventes dès aujourd’hui !
     </h1>
   </div>
@@ -45,7 +45,7 @@ import Slide from "../components/Slide.svelte";
           type="text"
           id="search"
          
-          placeholder="Recherche.."
+          placeholder="Recherche..."
         />
         <svg
           xmlns="http://www.w3.org/2000/svg"

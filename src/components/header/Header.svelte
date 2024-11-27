@@ -39,9 +39,9 @@
     </div>
   
     <!-- Center: Sell button -->
-    <button class="bg-orange-500 text-white py-1 px-4 rounded-lg hover:bg-orange-600 mt-2 md:mt-0 md:mx-4">
+    <!-- <button class="bg-orange-500 text-white py-1 px-4 rounded-lg hover:bg-orange-600 mt-2 md:mt-0 md:mx-4">
       Vendez sur clicncollect <span class="font-bold text-2md">+</span>
-    </button>
+    </button> -->
   
     <!-- Right side: Icons with labels -->
     <div class="flex gap-4 items-center mt-2 md:mt-0">
@@ -49,14 +49,14 @@
         <img src="https://img.icons8.com/ios/50/000000/shopping-cart.png" alt="Panier" class="w-6 h-6"/>
         <p class="text-xs">Panier</p>
       </div>
-      <div class="flex flex-col items-center text-center text-black cursor-pointer">
+     <!--  <div class="flex flex-col items-center text-center text-black cursor-pointer">
         <img src="https://img.icons8.com/ios/50/000000/history.png" alt="Historique" class="w-6 h-6"/>
         <p class="text-xs">Historique</p>
-      </div>
-      <div class="flex flex-col items-center text-center text-black cursor-pointer">
+      </div> -->
+     <!--  <div class="flex flex-col items-center text-center text-black cursor-pointer">
         <img src="https://img.icons8.com/ios/50/000000/help.png" alt="Aide" class="w-6 h-6"/>
         <p class="text-xs">Aide</p>
-      </div>
+      </div> -->
       <div class="flex flex-col items-center text-center text-black cursor-pointer">
         <img src="https://img.icons8.com/ios/50/000000/email.png" alt="Messages" class="w-6 h-6"/>
         <p class="text-xs">Messages</p>
@@ -66,7 +66,7 @@
       {#if $isLoggedIn}
         <div class="relative profile-dropdown">
           <div class="flex flex-col items-center text-center text-black cursor-pointer" on:click={() => showDropdown.set(!($showDropdown))}>
-            <img src="/logo2.jpg" alt="Profil" class="w-6 h-6"/>
+            <img src="/logo2.jpg" alt="Profil" class="w-7 h-7 rounded-md border border-green-400"/>
             <p class="text-xs">{$userName}</p>
   
             <!-- Dropdown Menu -->

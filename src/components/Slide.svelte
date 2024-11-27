@@ -41,19 +41,29 @@
 </script>
   
 <div class="relative mt-[5.5rem] rounded-md" id="carouselExampleCaptions">
-    <div class="w-full relative rounded-md">
-      {#each slides as slide, index}
-        <div class={`relative float-left w-full transition-transform duration-600 ease-in-out rounded-md ${activeSlide === index ? '' : 'hidden'}`}>
-          <div class="flex items-center justify-center h-[400px] rounded-md"> <!-- Flexbox container to center the image -->
-            <img src={slide.img} class="block w-[100%] h-[100%] object-cover rounded-md" alt={`Slide ${index + 1}`} />
-          </div>
-          <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
-            <h5 class="text-xl">{slide.title}</h5>
-            <p>{slide.text}</p>
-          </div>
+  <div class="w-full relative rounded-md overflow-hidden">
+    {#each slides as slide, index}
+      <div class={`relative float-left w-full transition-transform duration-600 ease-in-out rounded-md ${
+        activeSlide === index ? '' : 'hidden'
+      }`}>
+        <!-- Conteneur de l'image -->
+        <div class="flex items-center justify-center h-[250px] sm:h-[300px] md:h-[400px] rounded-md">
+          <img 
+            src={slide.img} 
+            class="block w-full h-full object-cover rounded-md" 
+            alt={`Slide ${index + 1}`} 
+          />
         </div>
-      {/each}
-    </div>
+        <!-- Texte du slide -->
+        <div class="absolute inset-x-[5%] sm:inset-x-[10%] md:inset-x-[15%] bottom-5 py-3 text-center text-white bg-black/50 rounded-md md:py-5">
+          <h5 class="text-base sm:text-lg md:text-xl font-semibold">{slide.title}</h5>
+          <p class="text-sm sm:text-base">{slide.text}</p>
+        </div>
+      </div>
+    {/each}
+  </div>
+<!-- </div> -->
+
   
   <!--   <button class="absolute left-0 top-0 bottom-0 z-10 w-[15%] text-white opacity-50" on:click={prevSlide}>
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6">
