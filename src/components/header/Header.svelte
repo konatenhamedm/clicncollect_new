@@ -1,36 +1,52 @@
 <script>
-    import { writable } from 'svelte/store';
-    import { onMount, onDestroy } from 'svelte';
-    import { browser } from '$app/environment'; // Importer la variable 'browser'
-  
-    // Simuler l'état de connexion de l'utilisateur
-    const isLoggedIn = writable(true);
-    const userProfileImage = writable('https://example.com/path/to/user-profile-image.jpg'); // URL de l'image de profil
-    const userName = writable('John Doe'); // Nom de l'utilisateur
-  
-    // Contrôler l'affichage du menu déroulant
-    let showDropdown = writable(false);
-  
-    // Fonction pour fermer le menu déroulant si on clique ailleurs
-    function handleClickOutside(event) {
-      if (!event.target.closest('.profile-dropdown')) {
-        showDropdown.set(false);
-      }
+  import { writable } from 'svelte/store';
+  import { onMount, onDestroy } from 'svelte';
+  import { browser } from '$app/environment';
+
+  const isLoggedIn = writable(true);
+  const userProfileImage = writable('https://example.com/path/to/user-profile-image.jpg');
+  const userName = writable('John Doe');
+
+  let showDropdown = writable(false);
+  let blockVisible = writable(false); // Variable pour contrôler la visibilité du bloc
+
+function handleClickOutside(event) {
+  if (!event.target.closest('.profile-dropdown')) {
+    showDropdown.set(false);
+  }
+}
+
+// Gérer le scroll avec des seuils différents pour mobile et desktop
+function handleScroll() {
+  if (browser) {
+    const threshold = window.innerWidth <= 768 ? 200 : 450; // 100 pour mobile, 450 pour desktop
+    blockVisible.set(window.scrollY > threshold);
+  }
+}
+
+  onMount(() => {
+    if (browser) {
+      document.addEventListener('click', handleClickOutside);
+      window.addEventListener('scroll', handleScroll); // Ajouter l'écouteur de scroll
     }
-  
-    // Ajouter un gestionnaire d'événements lors du montage du composant
-    onMount(() => {
-      if (browser) {
-        document.addEventListener('click', handleClickOutside);
-      }
-    });
-  
-    onDestroy(() => {
-      if (browser) {
-        document.removeEventListener('click', handleClickOutside);
-      }
-    });
-  </script>
+  });
+
+  onDestroy(() => {
+    if (browser) {
+      document.removeEventListener('click', handleClickOutside);
+      window.removeEventListener('scroll', handleScroll); // Nettoyer les événements
+    }
+  });
+</script>
+
+<style>
+  .hidden {
+    display: none;
+  }
+  .visible {
+    display: block;
+  }
+</style>
   
   <header class="fixed top-0 left-0 w-full z-50 flex flex-wrap items-center justify-between p-4 bg-white border-b border-gray-300">
     <!-- Left side: Logo -->
@@ -39,9 +55,13 @@
     </div>
   
     <!-- Center: Sell button -->
-    <!-- <button class="bg-orange-500 text-white py-1 px-4 rounded-lg hover:bg-orange-600 mt-2 md:mt-0 md:mx-4">
-      Vendez sur clicncollect <span class="font-bold text-2md">+</span>
-    </button> -->
+
+    <div class={$blockVisible ? 'visible' : 'hidden'} >
+      <button class="bg-orange-500 text-white py-1 px-4 rounded-lg  hover:bg-orange-600 mt-2 md:mt-0 md:mx-4">
+        Vendez sur clicncollect <span class="font-bold text-2md">+</span>
+      </button>
+    </div>
+    
   
     <!-- Right side: Icons with labels -->
     <div class="flex gap-4 items-center mt-2 md:mt-0">
@@ -59,7 +79,7 @@
       </div> -->
       <div class="flex flex-col items-center text-center text-black cursor-pointer">
         <img src="https://img.icons8.com/ios/50/000000/email.png" alt="Messages" class="w-6 h-6"/>
-        <p class="text-xs">Messages</p>
+        <p class="text-xs">Nous contacter</p>
       </div>
   
       <!-- Profil / Connexion -->
