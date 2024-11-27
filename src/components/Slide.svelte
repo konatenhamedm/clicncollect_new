@@ -56,8 +56,8 @@
         </div>
         <!-- Texte du slide -->
         <div class="absolute inset-x-[5%] sm:inset-x-[10%] md:inset-x-[15%] bottom-5 py-3 text-center text-white bg-black/50 rounded-md md:py-5">
-          <h5 class="text-base sm:text-lg md:text-xl font-semibold">{slide.title}</h5>
-          <p class="text-sm sm:text-base">{slide.text}</p>
+          <h5 class="text-white sm:text-lg md:text-xl font-semibold">{slide.title}</h5>
+          <p class="text-sm text-white sm:text-base">{slide.text}</p>
         </div>
       </div>
     {/each}
