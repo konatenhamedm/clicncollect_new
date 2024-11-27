@@ -47,7 +47,7 @@
         activeSlide === index ? '' : 'hidden'
       }`}>
         <!-- Conteneur de l'image -->
-        <div class="flex items-center justify-center h-[250px] sm:h-[300px] md:h-[400px] rounded-md">
+        <div class="flex items-center justify-center h-[150px] sm:h-[300px] md:h-[400px] rounded-md">
           <img 
             src={slide.img} 
             class="block w-full h-full object-cover rounded-md" 

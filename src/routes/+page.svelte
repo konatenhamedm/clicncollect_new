@@ -14,8 +14,8 @@ import Slide from "../components/Slide.svelte";
 <div class="grid grid-cols-1 md:grid-cols-4 border-2 border-orange-500 mt-2 p-1 gap-4 items-center">
   <!-- Texte -->
   <div class="md:col-span-3 px-5">
-    <h1 class="text-md md:text-2xl text-center md:text-left">
-      Augmentez vos ventes dès aujourd’hui !
+    <h1 class="text-sm md:text-2xl text-center md:text-left">
+      Augmentez vos ventes dès aujourd'hui !
     </h1>
   </div>
   <!-- Bouton -->
