@@ -202,12 +202,25 @@
 
 /* Footer */
 /* Footer */
-.sidebar-footer {
+/* .sidebar-footer {
   text-align: center;
   padding: 1rem 0;
   border-top: 1px solid #e5e5e5;
   font-size: 0.875rem;
   color: #333;
+} */
+
+.sidebar-footer {
+  position: absolute; /* Assurez-vous qu'il est positionné par rapport à la sidebar */
+  bottom: 0;
+  width: 100%; /* S'assurer qu'il occupe toute la largeur du menu */
+  text-align: center;
+  padding: 1rem 0;
+  border-top: 0px solid #e5e5e5;
+  font-size: 0.875rem;
+  background-color: white; /* S'assurer qu'il a un fond distinct */
+  color: #333;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Logo dans le footer */
@@ -383,7 +396,7 @@
       <img src="https://img.icons8.com/ios/50/000000/email.png" alt="Messages" class="w-6 h-6" />
       <p class="text-xs">Nous contacter</p>
     </div>
-    <div class="relative profile-dropdown" >
+    <div class="relative profile-dropdown" on:click={toggleMenu}>
       <div class="flex flex-col items-center text-center text-black cursor-pointer">
         <img src="/logo2.jpg" alt="Profil" class="w-7 h-7 rounded-md border border-green-400" />
         <p class="text-xs">John Doe</p>
@@ -428,6 +441,7 @@
     <li>Se connecter</li>
     <li>Vendez sur clicncollect</li>
   </ul>
+
 
   <!-- Footer -->
   <!-- Footer -->
