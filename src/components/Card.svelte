@@ -2,7 +2,7 @@
 
 </script>
 
-<div class="relative flex w-full max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-red-500 hover:shadow-lg transition-all duration-300">
+<div class="relative flex w-full max-w-full sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md hover:bg-gradient-to-r hover:bg-slate-900 hover:via-pink-500 hover:to-red-500 hover:shadow-lg transition-all duration-300">
   <a class="relative mx-3 mt-3 max-w-full flex h-60 overflow-hidden rounded-xl" href="#">
     <img class="object-cover w-full" src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="product image" />
     <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">Livraison possible</span>
